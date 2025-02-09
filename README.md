@@ -9,7 +9,7 @@ Este projeto consiste em uma **página simples** construída utilizando apenas *
 ### Funcionalidades:
 A página contém os seguintes links:
 - Um link para o meu **LinkedIn** 🔗 [Rodolfo Santos](https://www.linkedin.com/in/rodolfofps/)
-- Um link para o meu **GitHub** 🖥️ [Rodolfo Santos](https://website-name.com)
+- Um link para o meu **GitHub** 🖥️ [Rodolfo Santos](https://github.com/rodolfofps)
 
 Ambos os links são acessíveis diretamente da página e podem ser clicados para redirecionamento aos meus perfis. Além disso, a página foi estilizada com **CSS** para garantir uma apresentação clean e visualmente agradável.
 
