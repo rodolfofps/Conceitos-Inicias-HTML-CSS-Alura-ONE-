@@ -1,0 +1,66 @@
+/* Garantir que a imagem de fundo cubra toda a tela */
+#bgdImage {
+    position: absolute;  /* A imagem ficará fixada atrás do conteúdo */
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    height: 100%;  /* Faz a imagem cobrir toda a altura da tela */
+    object-fit: cover;  /* Faz a imagem cobrir a área sem distorcer */
+    z-index: -1;  /* Coloca a imagem atrás do conteúdo */
+}
+
+
+body {
+    margin: 0;  /* Remove a margem padrão */
+    height: 100vh;  /* Garante que o body ocupe toda a altura da tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Centraliza verticalmente */
+    align-items: center;  /* Centraliza horizontalmente */
+    font-family: Arial, sans-serif;  /* Define uma fonte mais amigável */
+}
+
+/* Estilo do main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  /* Centraliza o texto */
+    background: transparent;  /* Fundo semitransparente para melhorar a leitura */
+    color:#4e6f6c;  /* Texto branco */
+    border-radius: 30px;  /* Bordas arredondadas */
+    border: #4e6f6c;
+    z-index: 1;  /* Garante que o conteúdo fique acima da imagem */
+    max-width: 800px;  /* Define uma largura máxima para o main */
+    width: 100%;  /* Garante que o main ocupe toda a largura disponível */
+  }
+
+main #imgFigma{
+    border-radius: 40px;
+    width: 30%;
+    display: flex;
+}
+
+
+/* Estilo do footer */
+footer {
+    color: #4e6f6c;
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    
+}
+
+strong{
+    font-size: 45px;
+
+}
+
+span{
+    color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 2px;
+}
+
