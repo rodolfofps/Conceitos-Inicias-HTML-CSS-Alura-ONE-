@@ -19,4 +19,4 @@ A página foi projetada de maneira simples, com um layout limpo, que destaca os 
 ### Como Rodar o Projeto:
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone git@github.com:rodolfofps/Conceitos-Inicias-HTML-CSS-Alura-ONE-.git
