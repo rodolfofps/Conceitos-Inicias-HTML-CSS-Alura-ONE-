@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Portfolio</title>
 </head>
 <body>
     <img id="bgdImage"  src="img/Background.jpg" alt="">
-    <header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="">Home</a>
+            <a class="cabecalho__menu__link" href="">About me</a>
+        </nav>
     </header>
     <main class="presentation">
         <section class="presentation__conteudo">
@@ -18,16 +22,16 @@
              Busco ao longo de minha jornada aprender e atuar com aplicações Back-End, mais espeficificamente com Java!</br> 
             Estou sempre aberto à sugestões e ajudas construtivas! Vamos conversar? 🧔👍</p>
             <div class="presentation__links">
-                <a class="links__link" href="https://www.linkedin.com/in/rodolfofps/"><span class="span__links">Linkedin</span></a>  <!--semanticamente o correto é usar a tag "a" ao invés de "button" (mais indicado para submit de forms) -->
-                <a class="links__link" href="https://github.com/rodolfofps"><span class="span__links">Github</span></a>
+                <h2 class="presentation__links__subtitle">Acesse minhas redes:</h2>
+                <a class="links__link" href="https://www.linkedin.com/in/rodolfofps/"><img id="imgLinkedin" src="img/linkedin-icon.png"><span class="span__links">Linkedin</span> <!--semanticamente o correto é usar a tag "a" ao invés de "button" (mais indicado para submit de forms) -->
+                </a> 
+                <a class="links__link" href="https://github.com/rodolfofps"><img id="imgGithub" src="img/github-icon.png"><span class="span__links">Github</span></a>
             </div>
         </section>  
             <img id="imgFigma" src="img/ImagemFigma.png" alt="Foto Rodolfo programando">      
     </main>
-    <footer>
-    Projeto desenvolvido por Rodolfo Santos 
-
-
+    <footer class="rodape">
+        <p>Desenvolvido por Rodolfo Santos </p>
     </footer>
 </body>
 </html>
